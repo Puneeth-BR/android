@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/preview" >
+    <TextView 
+        android:id="@+id/textView1" 
+        android:layout_weight = "1"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:text="" />
+    <TextView 
+        android:id="@+id/textView1" 
+        android:layout_weight = "1"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:text="" />
+    <TextView 
+        android:id="@+id/textView1" 
+        android:layout_weight = "1"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:textColor = "#BBF5FFFA"
+        android:gravity="center"
+        android:textSize = "42sp"
+        android:textStyle = "bold" />
+    <Button
+        android:layout_weight = "1"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:onClick="startGame"
+        android:text="@string/button_start_game"
+        android:background="@drawable/buttonstartstyle"
+        android:textColor = "@drawable/startcolor"
+        android:textSize = "36sp"
+        android:textStyle = "bold"
+         />
+    
+    <TextView 
+        android:id="@+id/textView2" 
+        android:layout_weight = "1"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:text="" />
+
+</LinearLayout>
